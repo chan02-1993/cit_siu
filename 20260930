@@ -1,0 +1,69 @@
+"size =""tall""
+tumbler = False
+member = True
+
+if size == ""tall"":
+  price = 4500
+else:
+  price = 5000
+if tumbler == True:
+  price-= 300
+elif member == True:
+  price*=0.9
+print(price)"
+"weight = 3
+area = ""island""
+fee = 0
+if weight > 20:
+  print(""reject"")
+elif weight > 5:
+  fee+=5000
+  if area == ""island"":
+    fee += 5000
+  print(fee)
+else:
+  fee+=3000
+  if area == ""island"":
+    fee += 5000
+  print(fee)
+
+  "
+"rating = 12
+age = 12
+guardian = True
+enter = ""no""
+if rating > age:
+  enter = ""no""
+  if guardian ==True and (rating == 12 or rating == 15):
+    enter = ""yes""
+
+else:
+  enter = ""yes""
+
+print(enter)"
+"overdue = 0
+count = 0
+
+if overdue >= 3:
+  print(""banned"")
+elif overdue != 0:
+  print(""pay first"")
+else:
+  if count >=5:
+    print(""limit"")
+  else:
+    print(""ok"")
+"
+"minute = 40
+car = ""normal""
+fee = 0
+
+if minute > 30:
+  fee = 100*(minute-30)
+  if car == ""small"":
+    fee//=2
+    
+if fee > 10000:
+  fee = 10000
+
+print(fee)"
